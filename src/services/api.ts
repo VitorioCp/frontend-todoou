@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://backend-todoou-1.onrender.com",
+  baseURL: "https://marketin-site-backend-todoou.gtrphk.easypanel.host/",
 });
 
 api.interceptors.request.use(
